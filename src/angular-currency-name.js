@@ -8,6 +8,7 @@
         'afghani': '؋',
         'baht': '฿',
         'balboa': 'B/.',
+        'belidollar': 'BZ$',
         'bolivar': 'Bs',
         'bolíviano': '$b',
         'cedi': '¢',
@@ -17,12 +18,15 @@
         'denar': 'ден',
         'dinar': 'Дин.',
         'dollar': '$',
+        'dompeso': 'RD$',
         'dong': '₫',
         'forint': 'Ft',
         'franc': 'CHF',
         'guarani': 'Gs',
         'guilder': 'ƒ',
         'hryvnia': '₴',
+        'indiarupee': '₹',
+        'jamdollar': 'J$',
         'kip': '₭',
         'koruna': 'Kč',
         'krona': 'kr',
@@ -37,17 +41,19 @@
         'marka': 'KM',
         'metical': 'MT',
         'naira': '₦',
-        'peso': '$U',
+        'newdollar': 'NT$',
+        'peso':  '$',
+        'philpeso': '₱',
         'pound': '£',
         'pula': 'P',
         'quetzal': 'Q',
         'rand': 'R',
         'real': 'R$',
-        'renminbi': '¥',
         'rial': '﷼',
         'riel': '៛',
         'ringgit': 'RM',
         'riyal': '﷼',
+        'ttd': 'TT$',
         'ruble': '₽',
         'rupee': '₨',
         'rupiah': 'Rp',
@@ -57,8 +63,11 @@
         'som': 'лв',
         'tenge': 'лв',
         'tughrik': '₮',
+        'urupeso': '$U',
         'won': '₩',
         'yen': '¥',
+        'yuan': '¥',
+        'zimdollar': 'Z$',
         'zloty': 'zł'
     };
 
@@ -71,6 +80,8 @@
                 pattern = formats.PATTERNS[1];
 
             return function (amount, symbolName, decimalPoints, suffix) {
+                symbolName = symbolName.toLowerCase()
+
                 if (!Number(amount)) {
                     amount = 0
                 }
