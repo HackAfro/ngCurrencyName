@@ -71,7 +71,66 @@ Include `src/angular-currency-name.js` or `dist/angular-currency-name.min.js` to
 
     <script src="/bower_components/angular-currency-name/dist/angular-currency-name.min.js"></script>
 
-Don't forget to add `currencyName` module to your app's dependecies.
+Don't forget to add `ngCurrencyName` module to your app's dependecies.
 
-### List of 
+### List of available currencies
+
+Short Name   | Symbol
+:----------- | :-----
+Afghani      |   ؋
+Baht         |   ฿
+        'balboa': 'B/.',
+        'bolivar': 'Bs',
+        'bolíviano': '$b',
+        'cedi': '¢',
+        'colon': '$',
+        'cordoba': 'C$',
+        'euro': '€',
+        'denar': 'ден',
+        'dinar': 'Дин.',
+        'dollar': '$',
+        'dong': '₫',
+        'forint': 'Ft',
+        'franc': 'CHF',
+        'guarani': 'Gs',
+        'guilder': 'ƒ',
+        'hryvnia': '₴',
+        'kip': '₭',
+        'koruna': 'Kč',
+        'krona': 'kr',
+        'krone': 'kr',
+        'kuna': 'kn',
+        'lek': 'Lek',
+        'lempira': 'L',
+        'leu': 'lei',
+        'lev': 'лв',
+        'lira': '₺',
+        'manat': 'ман',
+        'marka': 'KM',
+        'metical': 'MT',
+        'naira': '₦',
+        'peso': '$U',
+        'pound': '£',
+        'pula': 'P',
+        'quetzal': 'Q',
+        'rand': 'R',
+        'real': 'R$',
+        'renminbi': '¥',
+        'rial': '﷼',
+        'riel': '៛',
+        'ringgit': 'RM',
+        'riyal': '﷼',
+        'ruble': '₽',
+        'rupee': '₨',
+        'rupiah': 'Rp',
+        'shekel': '₪',
+        'shilling': 'S',
+        'sol': 'S/.',
+        'som': 'лв',
+        'tenge': 'лв',
+        'tughrik': '₮',
+        'won': '₩',
+        'yen': '¥',
+        'zloty': 'zł'
+
 
