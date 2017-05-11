@@ -92,7 +92,7 @@
                     var symbol = formats.CURRENCY_SYM;
                 }
                 else if (currencies[symbolName] === undefined) {
-                    console.error('The symbol name you requested is not available');
+                    console.error('The symbol name you requested is not available yet.');
                     symbol = '';
                 }
                 else {
