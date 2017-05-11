@@ -1,0 +1,23 @@
+{
+  "name": "angular-currency-name",
+  "version": "1.0.0",
+  "description": "An angular filter that lets you input the shortname of any of the world currencies and then suffixes or prefixes the amount with the symbol.",
+  "main": "src/angular-currency-name.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackAfro/ngCurrencyName.git"
+  },
+  "keywords": [
+    "angular",
+    "currency"
+  ],
+  "author": "iamAfro <richyafro@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackAfro/ngCurrencyName/issues"
+  },
+  "homepage": "https://github.com/HackAfro/ngCurrencyName#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}

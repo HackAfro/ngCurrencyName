@@ -1,0 +1,24 @@
+{
+  "name": "angular-currency-name",
+  "description": "An angular filter that lets you input the short name of any of the world currencies and then suffixes or prefixes the amount with the symbol.",
+  "main": "src/angular-currency-name.js",
+  "authors": [
+    "iamAfro <richyafro@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "currency"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
