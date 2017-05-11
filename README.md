@@ -142,8 +142,8 @@ Yuan         |   ¥
 ZimDollar    | 	 Z$
 Zloty        |   zł
 
-## Pull reuqests
-If I've missed out on any currency or you think I made a mistake in any of the available ones, please send a pull request. More ideas are welcome.
+## Pull requests
+If I've missed out on any currency or you think I made a mistake in any of the available currencies, please send a pull request. More ideas are welcome.
 
 ## License
 MIT License
