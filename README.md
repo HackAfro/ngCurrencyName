@@ -66,6 +66,9 @@ String: Formatted number.
 ### Via bower
 
     bower install --save angular-currency-name
+### Via NPM
+
+    npm i --save angular-currency-name
 
 Include `src/angular-currency-name.js` or `dist/angular-currency-name.min.js` to your project.
 
